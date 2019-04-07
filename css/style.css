@@ -365,6 +365,11 @@ ol {
   transition: 0.3s;
   /* opacity : 0; */
 }
+
+.scrollUp {
+  top: -76px;
+  opacity: 0;
+}
 .header-section {
   padding-top: 20px;
   padding-bottom: 20px;

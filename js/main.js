@@ -92,6 +92,24 @@ $(window).on('load', function() {
 	/*------------------
 		scroll header
 	--------------------*/
+
+	var c, currentScrollTop = 0,
+       navbar = $('header');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+
 // 	var prevScrollpos = window.pageYOffset;
 // window.onscroll = function() {
 //   var currentScrollPos = window.pageYOffset;
