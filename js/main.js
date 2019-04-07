@@ -96,13 +96,8 @@ $(window).on('load', function() {
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-	// if (currentScrollPos > 250) {
 		document.getElementById("header").style.top = "0";
 		document.getElementById("header").style.opacity = "1";
-	// } else {
-	// 	document.getElementById("header").style.top = "-76px";
-	// 	document.getElementById("header").style.opacity = "0";
-	// }
   } else {
 	document.getElementById("header").style.top = "-76px";
 	document.getElementById("header").style.opacity = "0";
