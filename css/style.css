@@ -362,7 +362,7 @@ ol {
   background-color: white;
   position: fixed;
   z-index: 1;
-  transition: 0.3s;
+  transition: 0.2s;
   /* opacity : 0; */
 }
 
@@ -1014,7 +1014,7 @@ ol {
 
 .post-section {
   padding-top: 76px;
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 
