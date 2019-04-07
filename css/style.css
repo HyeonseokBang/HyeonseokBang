@@ -731,6 +731,8 @@ ol {
   }
 
   .post-header {
+    margin-right: -15px;
+    margin-left: -15px;
     padding: 30px 30px;
   }
 
@@ -970,10 +972,10 @@ ol {
 
 /* Custom CSS */
 
-.container-fluid {
+/* .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
-}
+} */
 .test {
   /* background-image: url("img/portfolio/5.jpg"); */
   /* width: 100px;
@@ -992,7 +994,8 @@ ol {
 
 
 .full-width {
-  width:100%
+  width:100%;
+  height:100%;
 }
 /* 
 .post-title {
