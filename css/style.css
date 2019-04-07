@@ -972,6 +972,7 @@ ol {
 @media only screen and (max-width: 479px) {
   .section-title {
     font-size: 30px;
+    padding-bottom: 10px;
   }
 }
 
