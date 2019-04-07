@@ -92,18 +92,18 @@ $(window).on('load', function() {
 	/*------------------
 		scroll header
 	--------------------*/
-	var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-		document.getElementById("header").style.top = "0";
-		document.getElementById("header").style.opacity = "1";
-  } else {
-	document.getElementById("header").style.top = "-76px";
-	document.getElementById("header").style.opacity = "0";
-  }
-  prevScrollpos = currentScrollPos;
-}
+// 	var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+// 		document.getElementById("header").style.top = "0";
+// 		document.getElementById("header").style.opacity = "1";
+//   } else {
+// 	document.getElementById("header").style.top = "-76px";
+// 	document.getElementById("header").style.opacity = "0";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
 
 
 if($().circleProgress){
