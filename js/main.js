@@ -59,10 +59,10 @@ $(window).on('load', function() {
 		port_si.find('.portfolio-item').height(port_intro_h + 601);
 	}
 
-	$('.portfolio-item.pi-style2').each(function() {
-		var pi_width = $(this).width();
-		$(this).height(pi_width + 50);
-	});
+	// $('.portfolio-item.pi-style2').each(function() {
+	// 	var pi_width = $(this).width();
+	// 	$(this).height(pi_width);
+	// });
 
 
 
@@ -87,6 +87,28 @@ $(window).on('load', function() {
 		}
 		e.preventDefault();
 	});
+
+
+	/*------------------
+		scroll header
+	--------------------*/
+	var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+	// if (currentScrollPos > 250) {
+		document.getElementById("header").style.top = "0";
+		document.getElementById("header").style.opacity = "1";
+	// } else {
+	// 	document.getElementById("header").style.top = "-76px";
+	// 	document.getElementById("header").style.opacity = "0";
+	// }
+  } else {
+	document.getElementById("header").style.top = "-76px";
+	document.getElementById("header").style.opacity = "0";
+  }
+  prevScrollpos = currentScrollPos;
+}
 
 
 if($().circleProgress){
