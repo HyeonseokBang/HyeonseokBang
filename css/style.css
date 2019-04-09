@@ -764,10 +764,14 @@ ol {
     color: black;
   }
 
-  .black-container {
-    background-color: black;
+  .blank-container {
     padding: 60px 30px;
   }
+
+  .challenge {
+    padding: 100px 0px;
+  }
+
 
   .overview {
     padding-right: 30px;
@@ -814,8 +818,12 @@ ol {
     padding-right: 70px;
   }
 
-  .black-container {
+  .blank-container {
     padding: 124px 154px;
+  }
+
+  .challenge {
+    padding: 100px 200px;
   }
 
   .post-header h2 {
@@ -848,8 +856,12 @@ ol {
     padding-right: 60px;
   }
 
-  .black-container {
+  .blank-container {
     padding: 60px 60px;
+  }
+
+  .challenge {
+    padding: 100px 200px;
   }
 
 
@@ -889,7 +901,7 @@ ol {
     padding: 60px 60px;
   }
 
-  .black-container {
+  .blank-container {
     padding: 60px 60px;
   }
 
@@ -1020,4 +1032,10 @@ ol {
   /* height: 2000px; */
 }
 
+.black-background {
+  background-color: black
+}
 
+.challenge p {
+  color: black
+}
